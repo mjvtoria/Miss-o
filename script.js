@@ -54,14 +54,14 @@ let historiaFinal = "";
 
 function mostraPergunta (){
     if (atual >= perguntas.length){
-        mostraResultado ();
+        mostraResultado();
         return;
     }
     perguntaAtual = perguntas [atual];
     caixaPerguntas.textContent = perguntaAtual.enunciado;
     caixaAlternativas.textContent = "";
     textoResultado.textContent = "";
-    mostraAlternativas ();
+    mostraAlternativas();
 }
 
 function mostraAlternativas(){
@@ -80,8 +80,8 @@ function mostraAlternativas(){
     mostraPergunta();
     }
 
-function mostraResultado () {    
-    caixaPerguntas.text.Content = "Resumindo...";
+function mostraResultado() {    
+    caixaPerguntas.textContent = "Resumindo...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
     }
