@@ -6,43 +6,45 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Como você acredita que podemos combater o racismo na sociedade?",
+        enunciado: "Qual tipo de enigma você mais gosta de resolver?",
         alternativas: [
             {
-                texto: "Participando de campanhas de conscientização e educação sobre igualdade racial.",
-                afirmacao: "afirmacao1"
+                texto: " Quebra-cabeças lógicos e matemáticos",
+                afirmacao: "Jogos que exigem uma abordagem analítica e estratégica são a sua praia."
             },
             {
-                texto: "Denunciando atos de discriminação e apoiando políticas públicas inclusivas.",
-                afirmacao: "afirmacao2"
+                texto: "Mistérios e enigmas narrativos",
+                afirmacao: "Jogos que misturam mistério e enredo envolvente são os que mais atraem seu interesse."
+
             }
            
         ]
     },
     {
-        enunciado: "Como você pode ajudar a combater a disseminação de fake news, especialmente as que perpetuam o racismo?",
+        enunciado: "Como você prefere que os enigmas sejam apresentados?",
         alternativas: [
             {
-                texto: "Verificando a veracidade das informações antes de compartilhar qualquer conteúdo, especialmente sobre temas sensíveis como racismo.",
-                afirmacao: "afirmacao3"
+                texto: "Desafios individuais",
+                afirmacao: "Você aprecia desafios que podem ser resolvidos um a um, sem muitas complicações adicionais."
             },
             {
-                texto: "Educando amigos e familiares sobre os perigos das fake news e incentivando-os a não compartilhar conteúdos falsos que perpetuam o racismo.",
-                afirmacao: "afirmacao4"
+                texto: "Puzzles integrados em uma trama maior",
+                afirmacao: "O melhor para você são enigmas que fazem parte de uma narrativa contínua e que se interligam com o enredo geral do jogo. A resolução de enigmas ajuda a desenvolver a história e desvendar mistérios."
             }
            
         ]
     },
     {
-        enunciado: "Como podemos incentivar o uso de energia solar e outras formas de energia limpa, especialmente em comunidades carentes?",
+        enunciado: "Qual é o nível de dificuldade que você busca em um jogo de enigma?",
         alternativas: [
             {
-                texto: "Defendendo políticas públicas que subsidiem a energia solar para famílias de baixa renda.",
-                afirmacao:"afirmacao5"
+                texto: "Desafios complexos e difíceis",
+                afirmacao:"Jogos que ofereçam enigmas particularmente difíceis e desafiadores, que exigem pensamento crítico e paciência para serem resolvidos."
+
             },
             {
-                texto: "Promovendo a instalação de painéis solares em escolas e centros comunitários de comunidades marginalizadas.",
-                afirmacao:"afirmacao6"
+                texto: "Desafios moderados e acessíveis",
+                afirmacao:"Para você o melhor são interessantes e desafiadores, mas não tão difíceis a ponto de serem frustrantes. Você aprecia uma dificuldade equilibrada que oferece satisfação sem ser excessivamente complexa."
             }
         ]
     }
